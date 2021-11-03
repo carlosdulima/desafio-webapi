@@ -1,0 +1,18 @@
+version: '3.4'
+
+networks:
+  taxajurosnet:
+    driver: bridge
+
+services:
+  softplan.calculajuros.api:
+    image: ${DOCKER_REGISTRY-}softplancalculajurosapi
+    build:
+      context: .
+      dockerfile: src/Softplan.CalculaJuros.Api/Dockerfile
+
+  softplan.taxajuros.api:
+    image: ${DOCKER_REGISTRY-}softplantaxajurosapi
+    build:
+      context: .
+      dockerfile: src/Softplan.TaxaJuros.Api/Dockerfile
