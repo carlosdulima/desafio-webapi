@@ -13,4 +13,4 @@ Ambos serviços possuem:
 
 ### Como rodar o projeto localmente
 
-Clonar o projeot para sua máquina e executar o projeto principal "docker-compose", ele vai rodar com o CalculaJuros abrindo no navegador, basta inputar os valores e o cálculo será realizado.
+Clonar o projeto para sua máquina e executar o projeto principal "docker-compose", ele vai rodar com o CalculaJuros abrindo no navegador, basta inputar os valores e o cálculo será realizado.
